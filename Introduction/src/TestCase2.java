@@ -10,7 +10,7 @@ public class TestCase2 {
 		System.setProperty("webdriver.chrome.driver", "C:\\chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("http://www.facebook.com");
+		driver.get("http://www.Google.com");
 		System.out.println(driver.getTitle());
 		
 		System.out.println(driver.getCurrentUrl());
